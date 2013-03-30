@@ -1,0 +1,261 @@
+
+
+                       T̳h̳e̳ ̳M̳a̳r̳k̳t̳e̳x̳t̳ ̳C̳h̳e̳a̳t̳ ̳S̳h̳e̳e̳t̳
+
+
+                       by:      Christian Kuelker
+                       version:  
+                       date:    2013-02-27
+		       license: FDL with no invariant sections
+                       status:  change without notice
+
+
+     ⌇  Abstract: This file contains only a very brief description of the ⌇ 
+     ⌇  Marktext conceptual elements. This document can be used to learn  ⌇ 
+     ⌇  the basic elements and it can be used as a reference. For further ⌇ 
+     ⌇  reading you are encouraged to consult The Marktext Specification  ⌇ 
+     ⌇  or The Marktext Manual for additional hints and suggestions.      ⌇ 
+
+
+
+Table of Contents
+
+    1   Introduction ………………………………………………………………………………………………………………………………………   1
+
+    2   What Matters - Document Structure ………………………………………………………………………………   2
+
+    3   Character Elements ………………………………………………………………………………………………………………………   3
+
+    4   Line Elements ……………………………………………………………………………………………………………………………………   4
+
+    5   Inline Elements ………………………………………………………………………………………………………………………………   5
+
+    6   Block Elements …………………………………………………………………………………………………………………………………   6
+
+        6.1 Table of Contents ………………………………………………………………………………………………………………   6
+        6.2 Block formatted/ Verbatim Text ……………………………………………………………………………   6
+        6.3 File Content ……………………………………………………………………………………………………………………………   6
+        6.4 Abstract ………………………………………………………………………………………………………………………………………   6
+        6.5 Block Quote ………………………………………………………………………………………………………………………………   6
+        6.6 Lists ………………………………………………………………………………………………………………………………………………   6
+
+            6.6.1 Bullet List ………………………………………………………………………………………………………………   6
+            6.6.2 Numbered List …………………………………………………………………………………………………………   6
+
+    7   Other Elements …………………………………………………………………………………………………………………………………   7
+
+        7.1  Footnote ……………………………………………………………………………………………………………………………………   7
+        7.2  Table ……………………………………………………………………………………………………………………………………………   7
+
+
+
+1̲ ̲I̲n̲t̲r̲o̲d̲u̲c̲t̲i̲o̲n̲
+
+Marktext is a semantic lightweight markup language for writing text. Marktext
+is designed to be easy for a human to enter with a simple text editor, and easy
+to read in its raw form. Marktext is not intended to be converted to something
+else, however Marktext can be converted.
+
+This document "The Marktext Cheet Sheet" describes in a very simple form how to
+use the basic concepts of Marktext. For advanced usage and more examples,
+please consult "The Marktext Manual". 
+
+
+2̲ ̲W̲h̲a̲t̲ ̲M̲a̲t̲t̲e̲r̲s̲ ̲-̲ ̲D̲o̲c̲u̲m̲e̲n̲t̲ ̲S̲t̲r̲u̲c̲t̲u̲r̲e̲
+
+Each Marktext document can be divided into tree parts: 1) front matter 2) main
+matter and 3) back matter. The front matter starts in the beginning of the
+document and can include: author, version, date, status, abstract and table of
+contents. The front matter have to include a title. The main matter is
+introduced with the first heading. It can *not* include title, author, version,
+date, status, abstract and table of contents. The back matter starts with the
+heading "A̲p̲p̲e̲n̲d̲i̲x̲" and can include the same parts as the main matter. The front
+matter and back matter are optional parts.
+
+
+3̲ ̲C̲h̲a̲r̲a̲c̲t̲e̲r̲ ̲E̲l̲e̲m̲e̲n̲t̲s̲ 
+
+    External reference sign: ↦ (see inline elements)
+    Internal reference sign: → (see inline elements)
+    Abstract sign:          ⌇  (see block elements)
+    Table of contents line:  … (see block elements)
+    Footnote text sign:      _ (see other elements)
+    Footnote sign:           ¹ (see other elements)
+
+
+4̲ ̲I̲n̲l̲i̲n̲e̲ ̲E̲l̲e̲m̲e̲n̲t̲s̲
+
+Can be in abstract, main and back matter and it need to be in _one_ line:
+
+    Code inside text:   `code` and `more code` 
+    Quote inline:       "Quote" and "Text to be quoted"
+    Keyword  inline:    *single-word* no emphasis *emphatic sentence*
+    Emphasis inline:    _mood_ and  _some  text_
+    Verbatim inline:    |Verbatim| and |some original text|
+    External Reference: "wikipedia" ↦ |http://www.wikipedia.org| 
+    Internal Reference: "line elements" → |5 Line Elements|
+
+`code`, "quote", *emphasis*, *real emphasis*, _mood_ and |verbatim| 
+"wikipedia" ↦ |http://www.wikipedia.org|
+"line elements" → |5 Line Elements|
+
+
+5̲ ̲L̲i̲n̲e̲ ̲E̲l̲e̲m̲e̲n̲t̲s̲
+
+Front matter (example at the beginning):
+
+    Title:   2 lines +  space/nothing + d̳o̳u̳b̳l̳e̳ ̳u̳n̳d̳e̳r̳l̳i̳n̳e̳d̳ + 2 lines
+    Document author:    space + by      + ":" + NAME 
+    Document version:   space + version + ":" + NUMBER and POINT
+    Document time:      space + date    + ":" + DATE 
+    Document condition: space + status  + ":" + STRING 
+    Document legal:     space + license + ":" + STRING 
+
+Main, back matter (example at this section):
+
+    Heading: 2 lines + u̲n̲d̲e̲r̲l̲i̲n̲e̲d̲ + 1 line
+
+
+6̲ ̲B̲l̲o̲c̲k̲ ̲E̲l̲e̲m̲e̲n̲t̲s̲
+
+Each block element has a "BEGIN", a "CONTENT" and an "END".
+
+
+6̲.̲1̲ ̲T̲a̲b̲l̲e̲ ̲o̲f̲ ̲C̲o̲n̲t̲e̲n̲t̲s̲
+
+In front matter (example see the beginning):
+
+    BEGIN:    2 lines + "Table of Contents" + 1 line
+    CONTENT: ≥4 space + something + "…" + 3 space + number
+    END:      2 lines 
+
+
+6̲.̲2̲ ̲B̲l̲o̲c̲k̲ ̲F̲o̲r̲m̲a̲t̲t̲e̲d̲/̲ ̲V̲e̲r̲b̲a̲t̲i̲m̲ ̲T̲e̲x̲t̲
+
+In main or back matter:
+
+    BEGIN:    1 lines
+    CONTENT: ≥4 space + someting
+    END:      1 lines
+
+    Block formatted or verbatim text starts from the 5th column or
+      even later to simulate indented text. It can contain one line
+        or many lines, that does not matter.
+
+
+     xxxx
+     xxxx
+
+
+6̲.̲3̲ ̲F̲i̲l̲e̲ ̲C̲o̲n̲t̲e̲n̲t̲
+
+In main or back matter:
+
+    BEGIN:   ≥1 space + ┏ + ━ + something + ━ + ┓ + ≥1 space
+    CONTENT: ≥1 space + ┃ + space + something + space + ┃ + ≥1 space
+    END:     ≥1 space + ┗ + ━ + ━ + ┛ + ≥ 1 space
+
+Example:
+
+   ┏━━━━━━━━━━━━━━━━━━━━━━━━━[/etc/hosts]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+   ┃                                                                          ┃
+   ┃ 127.0.0.1       localhost                                                ┃
+   ┃                                                                          ┃
+   ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+
+6̲.̲4̲ ̲A̲b̲s̲t̲r̲a̲c̲t̲
+
+In front matter (example at the beginning):
+
+    BEGIN:   ⌇ + 1 SPACE + "Abstract:" + something + space + ⌇ 
+    CONTENT: ⌇ + 1 SPACE + something + space + ⌇ 
+    END:     line
+
+
+6̲.̲5̲ ̲Q̲u̲o̲t̲e̲ ̲B̲l̲o̲c̲k̲
+
+In the main or back matter:
+
+    BEGIN:    1 line
+    CONTENT: ≥4 space + ≥1 ">" + 1 space + something
+    END:      1 line
+    
+    > Some test to be quoted
+    > Another line
+    > The last line
+
+Scope: main matter and back matter.
+
+
+6̲.̲6̲ ̲L̲i̲s̲t̲s̲
+
+Lists can be used in main and back matter.
+
+
+3̲.̲6̲.̲1̲ ̲B̲u̲l̲l̲e̲t̲ ̲L̲i̲s̲t̲
+
+    BEGIN:    1 line
+    CONTENT: ≥4 space + "*" + 1 space + text
+    END:      1 line
+
+    * One Entry
+    * Another Entry
+    * A Different Entry
+
+
+6̲.̲6̲.̲1̲ ̲N̲u̲m̲b̲e̲r̲e̲d̲ ̲L̲i̲s̲t̲
+
+
+     1 line
+    ≥4 space + number + "." + 1 space + text
+     1 line
+
+Example:
+
+    1. First Entry
+    2. Second Entry
+    3. Last Entry
+
+
+7̲ ̲O̲t̲h̲e̲r̲ ̲E̲l̲e̲m̲e̲n̲t̲s̲
+
+Scope: main matter and back matter.
+
+
+7̲.̲1̲ ̲F̲o̲o̲t̲n̲o̲t̲e̲
+
+The footnote source need to be defined in site the main or back matter.
+
+    Some text + FOOTNOTE NUMBER + space 
+
+The footnote target will be displayed at the end of the document.
+
+    2 lines
+    10 x "_" (underline-charcater)
+    1 space + FOOTNOTE NUMBER + 1-2 space + text
+
+The footnote¹ concept was taken from scientific writing. See
+at the end of this document for the corresponding footnote text.
+
+
+7̲.̲2̲ ̲T̲a̲b̲l̲e̲
+
+
+    BEGIN:      space + ╭   + ─    OR ╥ OR ┬ + ... + ╮
+    CONTENT:    space + │   + TEXT OR ║ OR │ + ... + │
+    OR CONTENT: space + ╞   + ═ +              ... + ╡
+    OR CONTENT: space + ├   + ─ +              ... + ┤
+    END:        space + ╰   + ─    OR ╨ OR ┴ + ... + ╯
+
+  ╭───╥───┬───╮
+  │ a ║ b │ c │
+  ╞═══╬═══╪═══╡
+  │ 1 ║ 2 │ 3 │
+  ├───╫───┼───┤
+  │ 4 ║ 5 │ 6 │
+  ╰───╨───┴───╯
+
+
+__________
+ ¹  http://de.wikipedia.org/wiki/Fußnote
