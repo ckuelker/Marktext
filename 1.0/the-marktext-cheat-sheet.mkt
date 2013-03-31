@@ -147,9 +147,9 @@ In main or back matter:
 
 In main or back matter:
 
-    BEGIN:   ≥1 space + ┏ + ━ + something + ━ + ┓ + ≥1 space
-    CONTENT: ≥1 space + ┃ + space + something + space + ┃ + ≥1 space
-    END:     ≥1 space + ┗ + ━ + ━ + ┛ + ≥ 1 space
+    BEGIN:   ┏ + ━     + something +     ━ + ┓ 
+    CONTENT: ┃ + space + something + space + ┃ 
+    END:     ┗ + ━     +                 ━ + ┛ 
 
 Example:
 
