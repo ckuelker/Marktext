@@ -203,9 +203,9 @@ Lists can be used in main and back matter.
 6̲.̲6̲.̲1̲ ̲N̲u̲m̲b̲e̲r̲e̲d̲ ̲L̲i̲s̲t̲
 
 
-     1 line
-    ≥4 space + number + "." + 1 space + text
-     1 line
+    BEGIN:    1 line
+    CONTENT: ≥4 space + number + "." + 1 space + text
+    END:      1 line
 
 Example:
 
@@ -229,7 +229,7 @@ The footnote target will be displayed at the end of the document.
 
     2 lines
     10 x "_" (underline-charcater)
-    1 space + FOOTNOTE NUMBER + 1-2 space + text
+    1 space + FOOTNOTE NUMBER + 1-2 space(s) + text
 
 The footnote¹ concept was taken from scientific writing. See
 at the end of this document for the corresponding footnote text.
