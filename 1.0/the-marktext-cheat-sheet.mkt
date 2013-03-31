@@ -238,19 +238,19 @@ at the end of this document for the corresponding footnote text.
 7̲.̲2̲ ̲T̲a̲b̲l̲e̲
 
 
-    BEGIN:      space + ╭   + ─    OR ╥ OR ┬ + ... + ╮
-    CONTENT:    space + │   + TEXT OR ║ OR │ + ... + │
-    OR CONTENT: space + ╞   + ═ +              ... + ╡
-    OR CONTENT: space + ├   + ─ +              ... + ┤
-    END:        space + ╰   + ─    OR ╨ OR ┴ + ... + ╯
+    BEGIN:      ╭   + ─    OR ╥ OR ┬ + ... + ╮
+    CONTENT:    │   + TEXT OR ║ OR │ + ... + │
+    OR CONTENT: ╞   + ═ +              ... + ╡
+    OR CONTENT: ├   + ─ +              ... + ┤
+    END:        ╰   + ─    OR ╨ OR ┴ + ... + ╯
 
-  ╭───╥───┬───╮
-  │ a ║ b │ c │
-  ╞═══╬═══╪═══╡
-  │ 1 ║ 2 │ 3 │
-  ├───╫───┼───┤
-  │ 4 ║ 5 │ 6 │
-  ╰───╨───┴───╯
+╭───╥───┬───╮
+│ a ║ b │ c │
+╞═══╬═══╪═══╡
+│ 1 ║ 2 │ 3 │
+├───╫───┼───┤
+│ 4 ║ 5 │ 6 │
+╰───╨───┴───╯
 
 
 __________
