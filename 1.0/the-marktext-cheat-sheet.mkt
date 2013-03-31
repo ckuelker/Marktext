@@ -134,9 +134,9 @@ In front matter (example see the beginning):
 
 In main or back matter:
 
-    BEGIN:    1 lines
+    BEGIN:    1 line
     CONTENT: ≥4 space + someting
-    END:      1 lines
+    END:      1 line
 
     Block formatted or verbatim text starts from the 5th column or
       even later to simulate indented text. It can contain one line
