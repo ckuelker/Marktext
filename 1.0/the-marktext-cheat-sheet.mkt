@@ -126,7 +126,7 @@ Each block element has a "BEGIN", a "CONTENT" and an "END".
 In front matter (example see the beginning):
 
     BEGIN:    2 lines  + "Table of Contents" + 1 line
-    CONTENT: ≥4 spaces + something + "…" + 3 space + number
+    CONTENT: ≥4 spaces + something + "…" + 3 spaces + number
     END:      2 lines 
 
 
@@ -164,8 +164,8 @@ Example:
 
 In front matter (example at the beginning):
 
-    BEGIN:   ⌇ + ≥1 space + "Abstract:" + something + ≥1 space + ⌇ 
-    CONTENT: ⌇ + ≥1 space + something + ≥1 space + ⌇ 
+    BEGIN:   ⌇ + ≥1 space(s) + "Abstract:" + something + ≥1 space(s) + ⌇ 
+    CONTENT: ⌇ + ≥1 space(s) +               something + ≥1 space(s) + ⌇ 
     END:     line
 
 
