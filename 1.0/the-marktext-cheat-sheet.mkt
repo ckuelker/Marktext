@@ -95,8 +95,8 @@ Can be in abstract, main and back matter and it need to be in _one_ line:
     External Reference: "wikipedia" ↦ |http://www.wikipedia.org| 
     Internal Reference: "line elements" → |5 Line Elements|
 
-`code`, "quote", *emphasis*, *real emphasis*, _mood_ and |verbatim| 
-"wikipedia" ↦ |http://www.wikipedia.org|
+Example: `code`, "quote", *emphasis*, *real emphasis*, _mood_ and |verbatim|
+"wikipedia" ↦ |http://www.wikipedia.org| 
 "line elements" → |5 Line Elements|
 
 
@@ -105,11 +105,11 @@ Can be in abstract, main and back matter and it need to be in _one_ line:
 Front matter (example at the beginning):
 
     Title:   2 lines +  space/nothing + d̳o̳u̳b̳l̳e̳ ̳u̳n̳d̳e̳r̳l̳i̳n̳e̳d̳ + 2 lines
-    Document author:    space + by      + ":" + NAME 
-    Document version:   space + version + ":" + NUMBER and POINT
-    Document time:      space + date    + ":" + DATE 
-    Document condition: space + status  + ":" + STRING 
-    Document legal:     space + license + ":" + STRING 
+    Document author:    ≥4 spaces + by      + ":" + NAME 
+    Document version:   ≥4 spaces + version + ":" + NUMBER and POINT
+    Document time:      ≥4 spaces + date    + ":" + DATE 
+    Document condition: ≥4 spaces + status  + ":" + STRING 
+    Document legal:     ≥4 spaces + license + ":" + STRING 
 
 Main, back matter (example at this section):
 
@@ -125,8 +125,8 @@ Each block element has a "BEGIN", a "CONTENT" and an "END".
 
 In front matter (example see the beginning):
 
-    BEGIN:    2 lines + "Table of Contents" + 1 line
-    CONTENT: ≥4 space + something + "…" + 3 space + number
+    BEGIN:    2 lines  + "Table of Contents" + 1 line
+    CONTENT: ≥4 spaces + something + "…" + 3 space + number
     END:      2 lines 
 
 
@@ -135,7 +135,7 @@ In front matter (example see the beginning):
 In main or back matter:
 
     BEGIN:    1 line
-    CONTENT: ≥4 space + someting
+    CONTENT: ≥4 spaces + someting
     END:      1 line
 
     Block formatted or verbatim text starts from the 5th column or
@@ -164,8 +164,8 @@ Example:
 
 In front matter (example at the beginning):
 
-    BEGIN:   ⌇ + 1 SPACE + "Abstract:" + something + space + ⌇ 
-    CONTENT: ⌇ + 1 SPACE + something + space + ⌇ 
+    BEGIN:   ⌇ + ≥1 space + "Abstract:" + something + ≥1 space + ⌇ 
+    CONTENT: ⌇ + ≥1 space + something + ≥1 space + ⌇ 
     END:     line
 
 
@@ -174,12 +174,12 @@ In front matter (example at the beginning):
 In the main or back matter:
 
     BEGIN:    1 line
-    CONTENT: ≥4 space + ≥1 ">" + 1 space + something
+    CONTENT: ≥4 spaces + 1 ">" + ≥1 space(s) + something
     END:      1 line
     
     > Some test to be quoted
-    > Another line
-    > The last line
+    >   Another line
+    >     The last line
 
 Scope: main matter and back matter.
 
@@ -192,7 +192,7 @@ Lists can be used in main and back matter.
 3̲.̲6̲.̲1̲ ̲B̲u̲l̲l̲e̲t̲ ̲L̲i̲s̲t̲
 
     BEGIN:    1 line
-    CONTENT: ≥4 space + "*" + 1 space + text
+    CONTENT: ≥4 spaces + "*" + 1 space + text
     END:      1 line
 
     * One Entry
@@ -204,7 +204,7 @@ Lists can be used in main and back matter.
 
 
     BEGIN:    1 line
-    CONTENT: ≥4 space + number + "." + 1 space + text
+    CONTENT: ≥4 spaces + number + "." + 1 space + text
     END:      1 line
 
 Example:
@@ -223,7 +223,7 @@ Scope: main matter and back matter.
 
 The footnote source need to be defined in site the main or back matter.
 
-    Some text + FOOTNOTE NUMBER + space 
+    Some text + FOOTNOTE NUMBER + ≥1 space(s)
 
 The footnote target will be displayed at the end of the document.
 
