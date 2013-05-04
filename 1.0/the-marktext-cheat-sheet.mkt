@@ -221,7 +221,7 @@ Scope: main matter and back matter.
 
 7̲.̲1̲ ̲F̲o̲o̲t̲n̲o̲t̲e̲
 
-The footnote source need to be defined in site the main or back matter.
+The footnote source need to be defined inside the main or back matter.
 
     Some text + FOOTNOTE NUMBER + ≥1 space(s)
 
