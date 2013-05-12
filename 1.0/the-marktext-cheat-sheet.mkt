@@ -56,9 +56,9 @@ is designed to be easy for a human to enter with a simple text editor, and easy
 to read in its raw form. Marktext is not intended to be converted to something
 else, however Marktext can be converted.
 
-This document "The Marktext Cheet Sheet" describes in a very simple form how to
+This document ‶The Marktext Cheet Sheet″ describes in a very simple form how to
 use the basic concepts of Marktext. For advanced usage and more examples,
-please consult "The Marktext Manual". 
+please consult ‶The Marktext Manual″. 
 
 
 2̲ ̲W̲h̲a̲t̲ ̲M̲a̲t̲t̲e̲r̲s̲ ̲-̲ ̲D̲o̲c̲u̲m̲e̲n̲t̲ ̲S̲t̲r̲u̲c̲t̲u̲r̲e̲
@@ -69,7 +69,7 @@ document and can include: author, version, date, status, abstract and table of
 contents. The front matter have to include a title. The main matter is
 introduced with the first heading. It can *not* include title, author, version,
 date, status, abstract and table of contents. The back matter starts with the
-heading "A̲p̲p̲e̲n̲d̲i̲x̲" and can include the same parts as the main matter. The front
+heading ‶A̲p̲p̲e̲n̲d̲i̲x̲″ and can include the same parts as the main matter. The front
 matter and back matter are optional parts.
 
 
@@ -88,16 +88,16 @@ matter and back matter are optional parts.
 Can be in abstract, main and back matter and it need to be in _one_ line:
 
     Code inside text:   `code` and `more code` 
-    Quote inline:       "Quote" and "Text to be quoted"
+    Quote inline:       ‶Quote″ and ‶Text to be quoted″
     Keyword  inline:    *single-word* no emphasis *emphatic sentence*
     Emphasis inline:    _mood_ and  _some  text_
     Verbatim inline:    |Verbatim| and |some original text|
     External Reference: "wikipedia" ↦ |http://www.wikipedia.org| 
     Internal Reference: "line elements" → |5 Line Elements|
 
-Example: `code`, "quote", *emphasis*, *real emphasis*, _mood_ and |verbatim|
-"wikipedia" ↦ |http://www.wikipedia.org| 
-"line elements" → |5 Line Elements|
+Example: `code`, ‶quote″, *keyword*, *emphasis keyword*, _emphasis_ and 
+|verbatim|, external reference "wikipedia" ↦ |http://www.wikipedia.org|,
+internal reference "line elements" → |5 Line Elements|
 
 
 5̲ ̲L̲i̲n̲e̲ ̲E̲l̲e̲m̲e̲n̲t̲s̲
@@ -118,7 +118,7 @@ Main, back matter (example at this section):
 
 6̲ ̲B̲l̲o̲c̲k̲ ̲E̲l̲e̲m̲e̲n̲t̲s̲
 
-Each block element has a "BEGIN", a "CONTENT" and an "END".
+Each block element has a ‶BEGIN″, a ‶CONTENT″ and an ‶END″.
 
 
 6̲.̲1̲ ̲T̲a̲b̲l̲e̲ ̲o̲f̲ ̲C̲o̲n̲t̲e̲n̲t̲s̲
