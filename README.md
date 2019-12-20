@@ -9,7 +9,7 @@ FileVersion: 0.1.0
 Marktext
 ========
 
-__English:__
+![English Language](i/english.png?raw=true "English") __English:__
 
 Marktext is a semantic lightweight markup language for writing beautiful plain
 (Unicode) text.  It is designed to be easy for a human to enter with a simple
