@@ -1,3 +1,10 @@
+---
+Title:       Marktext
+Author:      Christian Külker
+Date:        2019-12-20
+File:        README.md
+FileVersion: 0.1.0
+---
 
 Marktext
 ========
