@@ -23,7 +23,7 @@ Herstellung von schönen (Unicode) Texten. Es wurde für Menschen entwickelt, di
 Text mit einem schlichten Text-Editor eingeben, und dann ebenso leicht in
 seiner rohen Form lesen. Weitere Information auf [Marktext home page][].
 
-__日本語:__
+![Japanese Language](i/japanese.png?raw=true "日本語") __日本語:__
 
 マルクテクストは、ユニコード・テキストを入力するためのセマンティック軽量マークアップ言語である。マルクテクストは、単純なテキストエディタを使って入力する人間のために簡単で、その生の形式で読みやすいように設計されている。[Marktext home page][]。
 
