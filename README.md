@@ -16,7 +16,7 @@ Marktext is a semantic lightweight markup language for writing beautiful plain
 text editor, and easy to read in its raw form. More information on [Marktext
 home page][].
 
-__Deutsch:__
+![German Language](i/german.png?raw=true "Deutsch")  __Deutsch:__
 
 Marktext ist eine eindeutige semantische Auszeichnungssprache für die
 Herstellung von schönen (Unicode) Texten. Es wurde für Menschen entwickelt, die
